@@ -1,0 +1,61 @@
+{
+    "name": "CRM-FRONTEND",
+    "description": "",
+    "version": "0.0.0",
+    "author": "",
+    "private": true,
+    "scripts": {
+        "start:dev": "next dev",
+        "start:prod": "next start",
+        "build": "next build",
+        "lint": "eslint",
+        "format": "prettier --write .",
+        "prepare": "husky"
+    },
+    "dependencies": {
+        "@radix-ui/react-avatar": "^1.1.11",
+        "@radix-ui/react-label": "^2.1.8",
+        "@radix-ui/react-separator": "^1.1.8",
+        "@radix-ui/react-slot": "^1.2.4",
+        "@tailwindcss/postcss": "^4.1.17",
+        "class-variance-authority": "^0.7.1",
+        "clsx": "^2.1.1",
+        "lucide-react": "^0.554.0",
+        "next": "16.0.1",
+        "react": "19.2.0",
+        "react-dom": "19.2.0",
+        "tailwind-merge": "^3.4.0"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^20.1.0",
+        "@commitlint/config-conventional": "^20.0.0",
+        "@semantic-release/changelog": "^6.0.3",
+        "@semantic-release/git": "^10.0.1",
+        "@semantic-release/github": "^12.0.1",
+        "@types/node": "^20",
+        "@types/react": "^19",
+        "@types/react-dom": "^19",
+        "autoprefixer": "^10.4.22",
+        "babel-plugin-react-compiler": "1.0.0",
+        "eslint": "^9",
+        "eslint-config-next": "16.0.1",
+        "husky": "^9.1.7",
+        "postcss": "^8.5.6",
+        "prettier": "^3.6.2",
+        "semantic-release": "^25.0.1",
+        "tailwindcss": "^4.1.17",
+        "tw-animate-css": "^1.4.0",
+        "typescript": "^5"
+    },
+    "engines": {
+        "node": ">=24.0.0",
+        "npm": ">=11.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/templates/CRM-FRONTEND.git"
+    },
+    "bugs": {
+        "url": "https://github.com/templates/CRM-FRONTEND/issues"
+    }
+}
